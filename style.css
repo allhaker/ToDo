@@ -1,0 +1,29 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700);
+body {
+  background-color: #AEBDBF;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  width: 700px;
+  margin: 0 auto 30px auto;
+  padding: 15px;
+  background-color: #54838A;
+}
+
+.form {
+  border-radius: 30px;
+}
+.block {
+  display: inline-block;
+  width: 40%;
+}
+
+.block > div {
+  display: inline;
+}
