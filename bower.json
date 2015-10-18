@@ -1,0 +1,20 @@
+{
+  "name": "toDo",
+  "version": "0.0.1",
+  "homepage": "https://github.com/allhaker/toDo",
+  "authors": [
+    "Oleg Mironov <allhakervbg@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery" : "latest"
+  }
+}
