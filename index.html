@@ -5,20 +5,20 @@
   <meta charset="utf-8">
   <title>ToDo</title>
   <link href="style.css" rel="stylesheet">
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.2.8/jquery.form-validator.min.js"></script>
+  <script type="text/javascript" src="app2.js"></script>
 </head>
 
 <body id="my-body">
   <h1>My minimalistic ToDo application</h1>
   <div class="container form" id="toDoForm">
-    <form>
+    <form id="new-item">
       <h2>Enter your ToDo content here!</h2>
-      <input id="title" type="text" name="title" placeholder="Type Here" required>
+      <input id="title" data-validation="length alphanumeric" data-validation-length="min4" type="text" name="title" placeholder="Type Here" required>
       <input type="submit">
     </form>
   </div>
-
-  <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-  <script type="text/javascript" src="app.js"></script>
 </body>
 
 </html>
